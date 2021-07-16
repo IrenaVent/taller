@@ -1,7 +1,11 @@
-original = "tizas"
-nueva = "yesos"
+import sys
 
-nombreF = "fichero.txt"
+argumentos = sys.argv
+
+nombreF = argumentos[1]
+original = argumentos [2]
+nueva = argumentos [3]
+
 
 f = open(nombreF,"r")  # abrir archivo modo lectura
 
