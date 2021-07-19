@@ -1,8 +1,15 @@
-import sys
+import sys # de system
 
-argumentos = sys.argv
+argumentos = sys.argv 
+# aquí van a estar las palabras despues de python
+# nos va a dar una array (lista) con unas serie de argumentos posicionales,
+# de tal manera que después de python de tal manera que:
+# python cambiapalabra.py fichero.txt TIZAS LACRAS:
+# elemento 0 será "cambiapalabra"
+# elemento 1 será "fichero.txt"
+# etc
 
-nombreF = argumentos[1]
+nombreF = argumentos[1] 
 original = argumentos [2]
 nueva = argumentos [3]
 
